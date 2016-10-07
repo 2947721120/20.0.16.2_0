@@ -1731,7 +1731,7 @@
       "message": "关掉"
    },
    "turnOffRegularGmailChecking": {
-      "message": "关闭 Gmail 检查，只检查 Google 企业应用套件中的邮件"
+      "message": "关闭 Gmail 检查，只检查 谷歌 企业应用套件中的邮件"
    },
    "turnOffRegularGmailCheckingToolTip": {
       "message": "这将会忽略你的 @gmail.com 帐户 ！"
