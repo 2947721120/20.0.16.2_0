@@ -1,0 +1,145 @@
+﻿<html>
+<head>
+	<title>Explain and Send Screenshots - Options</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<script src="js/webcomponents-lite.js"></script>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/extensionCommon.js"></script>
+
+   	<script src="js/explainAndSendScreenshots.js"></script>
+	<script src="js/options.js"></script>
+
+	<link rel="import" href="extensionCommon.html"> <!-- html issue: upper case in extensionCommon.html is lowercased after importing?? -->
+
+	<style>
+		body {font-size:16px;opacity:1;transition:opacity 0.15s ease-in-out}
+		body[unresolved2] {opacity:0}
+
+		paper-toolbar {font-family:'Roboto'}
+		paper-toolbar > div, #middle {margin: 0 auto;max-width: 1366px}
+		
+		[mustDonate] {opacity:0.4;transition:opacity 0.1s ease-in}
+		[mustDonate]:hover {opacity:1}
+
+		paper-radio-button {display:block;padding:8px 0 !important}
+		paper-radio-group {display:block}
+
+		/* options.html */		
+		.title {-webkit-margin-start:10px !important;pointer-events:auto !important}
+		#middle {padding:30px 10px}
+		
+		#buttonIcons paper-radio-button {display:inline-block;margin-right:40px}
+		
+		.file {outline:1px solid lightblue;margin:10px}
+		
+		#showHideButtons {margin:10px 0 30px 0}
+		#showHideButtons paper-checkbox {margin-right:10px;border: 1px solid #eee;padding: 5px;border-radius: 5px}
+		#showHideButtons paper-checkbox[checked] {background: #fafafa}
+		
+	</style>
+
+</head>
+
+<body unresolved unresolved2 class="fullbleed layout vertical">
+  	<paper-header-panel class="flex">
+	    <paper-toolbar>
+	    	<img id="logo" src="images/icons/default48.png" style="vertical-align:middle"/>
+      		<div class="title"><a class="inherit" href="https://jasonsavard.com?ref=SSOptionsTitle">Explain and Send Screenshots</a></div>
+      		<div class="flex"></div>
+      		<paper-button id="version">version</paper-button>
+      		<a class="inherit" href="https://jasonsavard.com/wiki/Explain_and_Send_Screenshots_changelog?ref=SSOptions"><paper-button><span msg="changelog"></span></paper-button></a>
+      		<a class="inherit" href="donate.html"><paper-button><span msg="contribute"></span></paper-button></a>
+      		<a class="inherit" href="https://jasonsavard.com/forum/categories/explain-and-send-screenshots"><paper-button><span msg="help"></span></paper-button></a>
+		</paper-toolbar>
+	  	<div id="middle" class="layout vertical start">
+			<paper-checkbox id="removeMenuItems" storage="removeMenuItems"><span msg="removeMenuItems"></span></paper-checkbox>
+			<paper-tooltip for="removeMenuItems" position="right" animation-delay="0"><span msg="removeMenuItemsToolTip">removeMenuItemsToolTip</span></paper-tooltip>
+			<paper-checkbox mustDonate id="headerFooter" storage="removeHeaderFooter"><span msg="removeHeaderFooter"></span></paper-checkbox>
+			<paper-checkbox mustDonate id="removeToolbarInPopup" storage="removeToolbarInPopup"><span msg="removeToolbarInPopup">hideToolbarInPopup</span></paper-checkbox>
+
+			<br>
+			Button icon
+	  		<paper-radio-group id="buttonIcons" storage="buttonIcon" mustDonate>
+		  		<paper-radio-button name="default"><img src="images/icons/default19.png"/></paper-radio-button>
+		  		<paper-radio-button name="monochrome"><img src="images/icons/monochrome19.png"/></paper-radio-button>
+		  		<paper-radio-button name="camera"><img src="images/icons/camera19.png"/></paper-radio-button>
+		  		<paper-radio-button name="crop"><img src="images/icons/crop19.png"/></paper-radio-button>
+			</paper-radio-group>
+
+			<paper-dropdown-menu msgLabel="imageFormat">
+				<paper-menu id="imageFormat" class="dropdown-content" attr-for-selected="value" storage="imageFormat">
+			    	<paper-item value="image/jpeg">jpeg</paper-item>
+			    	<paper-item value="image/png">png</paper-item>
+			  	</paper-menu>
+			</paper-dropdown-menu>
+	
+			<div id="presetOptions" mustDonate>
+				<paper-dropdown-menu msgLabel="presetButtonAction">
+					<paper-menu id="presetButtonAction" class="dropdown-content" attr-for-selected="value" storage="presetButtonAction">
+					    <paper-item value="popupWindow" msg="popupWindow">Popup window</paper-item>
+				    	<paper-item value="grabSelectedArea" msg="grabSelectedArea">grabSelectedArea</paper-item>
+				    	<paper-item value="grabVisiblePart" msg="grabVisiblePart">grabVisiblePart</paper-item>
+				    	<paper-item value="grabEntirePage" msg="grabEntirePage">grabEntirePage</paper-item>
+				  	</paper-menu>
+				</paper-dropdown-menu>
+			</div>
+
+			<div id="afterGrabOptions">
+				<paper-dropdown-menu msgLabel="afterGrabAction">
+					<paper-menu id="afterGrabAction" class="dropdown-content" attr-for-selected="value" storage="afterGrabAction">
+					    <paper-item value="openEditor" msg="openEditor">openEditor</paper-item>
+					    <paper-item value="upload" msg="upload">upload</paper-item>
+				    	<paper-item value="saveToGoogleDrive" msg="saveToGoogleDrive">saveToGoogleDrive</paper-item>
+				  	</paper-menu>
+				</paper-dropdown-menu>
+			</div>
+
+			<div id="showHideButtons">
+				<div style="margin:10px 0" msg="hideButtons">Hide buttons</div>
+				<paper-checkbox mustDonate id="downloadButton" storage="downloadButton"><iron-icon icon="file-download"></iron-icon> <span msg="download">Download</span></paper-checkbox>
+				<paper-checkbox mustDonate id="uploadButton" storage="uploadButton"><iron-icon icon="cloud-upload"></iron-icon> <span msg="upload">Upload</span></paper-checkbox>
+				<paper-checkbox mustDonate id="saveToDriveButton" storage="saveToDriveButton" chrome-only><iron-icon src="images/drive.png"></iron-icon> <span msg="saveToGoogleDrive">Save to Google Drive</span></paper-checkbox>
+				<paper-checkbox mustDonate id="copyToClipboardButton" storage="copyToClipboardButton"><iron-icon icon="content-copy"></iron-icon> <span msg="copy">Copy image</span></paper-checkbox>
+				<paper-checkbox mustDonate id="editInPixlrButton" storage="editInPixlrButton"><iron-icon icon="editor:insert-photo"></iron-icon> <span msg="editInPixlr">Edit in Pixlr</span></paper-checkbox>
+				<paper-checkbox mustDonate id="shareButton" storage="shareButton"><iron-icon icon="social:share"></iron-icon> <span msg="share">Share</span></paper-checkbox>
+				<paper-checkbox mustDonate id="openButton" storage="openButton" chrome-only><iron-icon icon="open-in-new"></iron-icon> <span msg="open">Open</span></paper-checkbox>
+				<paper-checkbox mustDonate id="pdfButton" storage="pdfButton" chrome-only><iron-icon icon="image:picture-as-pdf"></iron-icon> <span>PDF</span></paper-checkbox>
+				<paper-checkbox mustDonate id="searchImageButton" storage="searchImageButton" chrome-only><iron-icon icon="search"></iron-icon> <span msg="search">search</span></paper-checkbox>
+
+				<div style="margin-top:20px">
+					<div style="margin:10px 0" msg="Popupmenu">Popup menu</div>
+					<paper-checkbox mustDonate id="grabEntireScreenButton" storage="grabEntireScreenButton"><iron-icon icon="hardware:desktop-windows"></iron-icon> <span msg="grabEntireScreen">grabEntireScreen</span></paper-checkbox>
+					<paper-checkbox mustDonate id="openFileButton" storage="openFileButton"><iron-icon icon="file-upload"></iron-icon> <span msg="openFile">openFile</span></paper-checkbox>
+				</div>
+
+			</div>
+			
+			<paper-button id="viewUploadedFiles" toggles raised msg="viewUploadedFiles">View uploaded files</paper-button>
+			<div id="uploadedFiles" class="layout horizontal start wrap" style="display:none"></div>
+		</div>
+	</paper-header-panel>
+
+	<template id="genericDialogTemplate">
+		<paper-dialog id="genericDialog" modal="true">
+			<h2>blah blah</h2>
+			<paper-dialog-scrollable class="dialogDescription">
+				blah
+			</paper-dialog-scrollable>
+			<div class="buttons">
+		  		<paper-button dialog-other class="otherDialog" hidden>empty</paper-button>
+		  		<paper-button dialog-dismiss class="cancelDialog"><span msg="cancel"></span></paper-button>
+		  		<paper-button dialog-confirm autofocus class="okDialog"><span msg="ok"></span></paper-button>
+		  	</div>
+		</paper-dialog>
+	</template>
+	
+	<paper-toast id="message" text="Done"><paper-icon-button class="closeToast" icon="close"></paper-icon-button></paper-toast>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+	
+</body>
+</html>

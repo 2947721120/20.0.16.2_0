@@ -1,0 +1,560 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "不要刪除"
+   },
+   "aboutMe": {
+      "message": "作者信息"
+   },
+   "addXDelay": {
+      "message": "添加 $1 延遲"
+   },
+   "advancedEditing": {
+      "message": "在 Pixlr進一步編輯"
+   },
+   "afterGrabAction": {
+      "message": "在抓行動"
+   },
+   "alreadyDonated": {
+      "message": "已經捐助過？"
+   },
+   "amount": {
+      "message": "金額"
+   },
+   "andMore": {
+      "message": "更多..."
+   },
+   "background": {
+      "message": "背景"
+   },
+   "black": {
+      "message": "黑色"
+   },
+   "blurTool": {
+      "message": "擦除/模糊"
+   },
+   "byRightClicking": {
+      "message": "通過右擊圖像"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "canceledInAppPurchase": {
+      "message": "試試 PayPal 來代替呢？或與我聯係"
+   },
+   "capturing": {
+      "message": "捕獲..."
+   },
+   "changeButtonIcon": {
+      "message": "更改按鈕圖標"
+   },
+   "changeFontOptions": {
+      "message": "改變字體選項"
+   },
+   "changeFontSize": {
+      "message": "更改字體大小"
+   },
+   "changelog": {
+      "message": "更新日誌"
+   },
+   "chooseAWebsite": {
+      "message": "選擇一個網站上傳你的圖像並得到分享鏈接..."
+   },
+   "chooseColor": {
+      "message": "選擇顏色"
+   },
+   "choosePaymentMethod": {
+      "message": "選擇付款方式"
+   },
+   "clickAndDrag": {
+      "message": "單擊並拖動"
+   },
+   "clicktochooseafile": {
+      "message": "單擊選擇文件"
+   },
+   "clickToShare": {
+      "message": "或單擊以快速分享......"
+   },
+   "close": {
+      "message": "關閉"
+   },
+   "contactHelp": {
+      "message": "聯絡 - 幫助"
+   },
+   "continue": {
+      "message": "繼續"
+   },
+   "continueWithoutFeatures": {
+      "message": "繼續使用此擴充功能，但沒有以下額外選項"
+   },
+   "contribute": {
+      "message": "捐助"
+   },
+   "contributeToContinue": {
+      "message": "捐贈"
+   },
+   "copy": {
+      "message": "複製"
+   },
+   "copyImage": {
+      "message": "複製圖像"
+   },
+   "copyLink": {
+      "message": "複製鏈接"
+   },
+   "copyToClipboard": {
+      "message": "複製到剪貼板"
+   },
+   "copyToClipboardDesc": {
+      "message": "右擊下麵的圖像並選擇"
+   },
+   "createLink": {
+      "message": "創建鏈接"
+   },
+   "creditCardOrPaypal": {
+      "message": "您可以使用信用卡或 PayPal 來支付"
+   },
+   "cropTool": {
+      "message": "修剪圖像"
+   },
+   "currencyCode": {
+      "message": "美元"
+   },
+   "currencyCodeForStripe": {
+      "message": "美元"
+   },
+   "currencySymbol": {
+      "message": "$$"
+   },
+   "currencySymbolForStripe": {
+      "message": "$$"
+   },
+   "delete": {
+      "message": "刪除"
+   },
+   "deleteLink": {
+      "message": "刪除"
+   },
+   "deleteSelection": {
+      "message": "刪除所選"
+   },
+   "description": {
+      "message": "截取任意網頁，可以像畫圖軟件那樣用直線、箭頭、圓圈、文字做出標識。並可以方便的通過鏈接或者附件分享。"
+   },
+   "discoverMyApps": {
+      "message": "嚐試更多我的軟件"
+   },
+   "dismiss": {
+      "message": "辭退"
+   },
+   "doNotNotifyMeOfUpdates": {
+      "message": "不要通知我更新"
+   },
+   "donateButton": {
+      "message": "https://www.paypal.com/zh_CN/i/btn/btn_donate_SM.gif"
+   },
+   "done": {
+      "message": "完成"
+   },
+   "download": {
+      "message": "下載"
+   },
+   "drawArrow": {
+      "message": "繪製箭頭"
+   },
+   "drawCircle": {
+      "message": "畫一個圓"
+   },
+   "drawFreehand": {
+      "message": "手繪"
+   },
+   "drawLine": {
+      "message": "畫一條線"
+   },
+   "drawRectangle": {
+      "message": "繪製一個矩形"
+   },
+   "editInPixlr": {
+      "message": "在 Pixlr 中進行編輯"
+   },
+   "editingInstructions": {
+      "message": "繪製箭頭或添加文本"
+   },
+   "enterAnAmount": {
+      "message": "您必須輸入金額！"
+   },
+   "example": {
+      "message": "示例"
+   },
+   "extensionUpdated": {
+      "message": "擴展更新!"
+   },
+   "extensionUpdates": {
+      "message": "擴展更新"
+   },
+   "extraFeatures": {
+      "message": "額外功能"
+   },
+   "extraFeaturesPopup1": {
+      "message": "這些模糊的選項是額外的功能，我花了很多時間開發."
+   },
+   "extraFeaturesPopup2": {
+      "message": "解鎖這些功能，有助於任何金額的支持，我的工作."
+   },
+   "failureWithInAppPurchase": {
+      "message": "已取消或交易失敗 ！試試 PayPal 來代替呢？"
+   },
+   "failureWithPayPalPurchase": {
+      "message": "已取消或交易失敗 ！試試 $1 來代替呢？"
+   },
+   "feedback": {
+      "message": "反饋"
+   },
+   "font": {
+      "message": "字體"
+   },
+   "grabEntirePage": {
+      "message": "截取整個頁麵"
+   },
+   "grabEntireScreen": {
+      "message": "截取整個屏幕"
+   },
+   "grabSelectedArea": {
+      "message": "截取部分"
+   },
+   "grabVisiblePart": {
+      "message": "截圖可見部分"
+   },
+   "grabWindow": {
+      "message": "截取窗口或瀏覽器"
+   },
+   "help": {
+      "message": "幫助"
+   },
+   "helpContact": {
+      "message": "幫助-聯係我們"
+   },
+   "hideButtons": {
+      "message": "隱藏按鈕"
+   },
+   "highlight": {
+      "message": "突出"
+   },
+   "hurried": {
+      "message": "軟件忙碌中，現在右擊圖像複製到剪貼板或保存圖像"
+   },
+   "imageFormat": {
+      "message": "圖像格式"
+   },
+   "justInstalled": {
+      "message": "你可能隻是安裝此擴展或插件剛更新，所以你需要首先點擊 $1 選項卡或截取$2!"
+   },
+   "justInstalled2": {
+      "message": "重新加載"
+   },
+   "justInstalled3": {
+      "message": "頁麵可見部分"
+   },
+   "large": {
+      "message": "大"
+   },
+   "lineWeight": {
+      "message": "線寬"
+   },
+   "linkCopied": {
+      "message": "複製鏈接"
+   },
+   "makeThisAMonthlyContribution": {
+      "message": "使這一個月的貢獻"
+   },
+   "makeThisAMonthlyContributionTooltip": {
+      "message": "幫助維護我的用戶支持和更新"
+   },
+   "minimumAmount": {
+      "message": "你至少需捐 $1"
+   },
+   "minimumDonation": {
+      "message": "1"
+   },
+   "minimumDonationBitcoin": {
+      "message": "0.001"
+   },
+   "minimumDonationBitcoinReduced": {
+      "message": "0.0006"
+   },
+   "minimumDonationCoinbase": {
+      "message": "1"
+   },
+   "minimumDonationCoinbaseReduced": {
+      "message": "0.50"
+   },
+   "minimumDonationPaypalReduced": {
+      "message": "0.50"
+   },
+   "minimumDonationStripe": {
+      "message": "1"
+   },
+   "minimumDonationStripeReduced": {
+      "message": "0.50"
+   },
+   "myPreference": {
+      "message": "我的偏好"
+   },
+   "name": {
+      "message": "高效網頁截圖編輯插件"
+   },
+   "none": {
+      "message": "沒有"
+   },
+   "normal": {
+      "message": "正常"
+   },
+   "ok": {
+      "message": "好"
+   },
+   "open": {
+      "message": "打開"
+   },
+   "openEditor": {
+      "message": "打開編輯"
+   },
+   "openFile": {
+      "message": "打開..."
+   },
+   "openFromClipboard": {
+      "message": "打開剪貼板"
+   },
+   "openFromClipboardAndCrop": {
+      "message": "搶剪貼板和裁切"
+   },
+   "openInGoogleDrive": {
+      "message": "在穀歌硬盤中打開"
+   },
+   "option": {
+      "message": "選項"
+   },
+   "options": {
+      "message": "選項"
+   },
+   "or": {
+      "message": "或"
+   },
+   "orPayUsing_": {
+      "message": "或者，支付你可以使用"
+   },
+   "otherAmount": {
+      "message": "其他金額"
+   },
+   "otherExtensions": {
+      "message": "試試我的其他流行的應用程序！"
+   },
+   "pagesFromOtherExtensions": {
+      "message": "來源於其他擴展的頁麵"
+   },
+   "pagesThatStartWith": {
+      "message": "頁麵開始於"
+   },
+   "particularPages": {
+      "message": "由於 Chrome 的安全策略，這些 $1 不能捕獲，請嚐試另一頁!\u003Cbr>\u003Cspan style='color:gray'> 注: 重新啟動瀏覽器或重新安裝擴展可能會解決此問題。\u003C/span>"
+   },
+   "particularPages2": {
+      "message": "特定頁麵"
+   },
+   "paste": {
+      "message": "粘貼"
+   },
+   "paste2": {
+      "message": "變成電子郵件或社交媒體"
+   },
+   "pastingProblem": {
+      "message": "* 粘貼到一些應用程序可能無法正常顯示，請等待處理後複製"
+   },
+   "Popupmenu": {
+      "message": "彈出菜單"
+   },
+   "popupWindow": {
+      "message": "彈出窗口"
+   },
+   "presetButtonAction": {
+      "message": "預設按鈕動作"
+   },
+   "processing": {
+      "message": "處理中"
+   },
+   "readyForPasting": {
+      "message": "準備粘貼!"
+   },
+   "readyToShare": {
+      "message": "它是願意分享，這裏是鏈接..."
+   },
+   "redo": {
+      "message": "重做"
+   },
+   "removeDonationLink": {
+      "message": "刪除捐款鏈接"
+   },
+   "removeFooter": {
+      "message": "刪除頁腳文本嗎?"
+   },
+   "removeHeader": {
+      "message": "刪除頁眉文本嗎?"
+   },
+   "removeHeaderFooter": {
+      "message": "刪除頁眉和頁腳文本"
+   },
+   "removeMenuItems": {
+      "message": "刪除右鍵中截圖選項"
+   },
+   "removeMenuItemsToolTip": {
+      "message": "通過右鍵點擊一個網頁，並選擇一個截圖方法"
+   },
+   "removeToolbarInPopup": {
+      "message": "在彈出窗口中刪除工具欄"
+   },
+   "restart": {
+      "message": "重新啟動"
+   },
+   "rightClickImage": {
+      "message": "右擊圖像複製或保存圖像"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "saveImageAs": {
+      "message": "圖像另存為..."
+   },
+   "saveImageAsAFile": {
+      "message": "另存為..."
+   },
+   "saveImageAsDesc": {
+      "message": "右擊圖像並選擇 $1"
+   },
+   "saveToGoogleDrive": {
+      "message": "保存到穀歌硬盤"
+   },
+   "search": {
+      "message": "搜索"
+   },
+   "securely": {
+      "message": "安全地"
+   },
+   "seeUpdates": {
+      "message": "視圖更新"
+   },
+   "selectionTool": {
+      "message": "選擇"
+   },
+   "semiTransparent": {
+      "message": "半透明"
+   },
+   "share": {
+      "message": "分享"
+   },
+   "shareAsLink": {
+      "message": "通過鏈接分享"
+   },
+   "shareButtons": {
+      "message": "分享按鈕"
+   },
+   "shareImageBlurb": {
+      "message": "我推薦 $1 或 $2"
+   },
+   "shareLinkOn": {
+      "message": "分享圖像"
+   },
+   "shareableLink": {
+      "message": "分享鏈接"
+   },
+   "size": {
+      "message": "尺寸"
+   },
+   "small": {
+      "message": "小"
+   },
+   "supportExtension": {
+      "message": "讚助"
+   },
+   "thankYouForYourContribution": {
+      "message": "額外功能現在已解鎖。謝謝你的貢獻 ！"
+   },
+   "thankYouForYourContribution2": {
+      "message": "關閉此窗口並開始使用 ！"
+   },
+   "theresAProblem": {
+      "message": "有一個問題"
+   },
+   "tryAgain": {
+      "message": "請再試一次"
+   },
+   "tryAgainLater": {
+      "message": "請稍後再試。"
+   },
+   "undo": {
+      "message": "撤消"
+   },
+   "unlockFeatures": {
+      "message": "隻要捐一次任何金額的款項，便能使用目前與未來將新增的額外功能。立即生效！"
+   },
+   "upload": {
+      "message": "上傳"
+   },
+   "uploadImage": {
+      "message": "上傳圖片"
+   },
+   "uploading": {
+      "message": "上傳"
+   },
+   "useUploadButton": {
+      "message": "使用 \u003Cb>$1\u003C/b> 按鈕來獲得一個鏈接"
+   },
+   "viewUploadedFiles": {
+      "message": "查看上傳的文件"
+   },
+   "wantALink": {
+      "message": "得到分享鏈接"
+   },
+   "white": {
+      "message": "白"
+   },
+   "whyContribute": {
+      "message": "我為什麼要貢獻？"
+   },
+   "whyContributeReason1": {
+      "message": "我每周工作數小時來維護和更新 $1 ，以回應你們的建議"
+   },
+   "whyContributeReason1_1": {
+      "message": "我所有的擴展程序"
+   },
+   "whyContributeReason2": {
+      "message": "我仔細閱讀你們的每一條評論和建議，並在第一時間給予反饋 :）"
+   },
+   "whyContributeReason2_1": {
+      "message": "自己開發的評論監控器"
+   },
+   "whyContributeReason3": {
+      "message": "你可以貢獻任何款額，我都將表示感激 ！"
+   },
+   "whyContributeReason4": {
+      "message": "此擴展程序持續收到 $1，謝謝 ！"
+   },
+   "whyContributeReason4_1": {
+      "message": "熱心人士的評論"
+   },
+   "whyContributeReason5": {
+      "message": "了解更多有關我的情況，請訪問 $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "使您或您的公司成為更高效的穀歌用戶"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "相比於 $1 實惠多了！"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "微軟 Outlook"
+   },
+   "writeText": {
+      "message": "插入文本"
+   }
+}
