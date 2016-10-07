@@ -834,10 +834,10 @@
       "message": "加载设置"
    },
    "mailtoLinks": {
-      "message": "使用 Gmail 打开 mailto 链接"
+      "message": "使用 Gmail 打开 发邮件 链接"
    },
    "mailtoLinksToolTip": {
-      "message": "单击 mailto 链接 （电子邮件链接） 将打开 Gmail 而不是您的邮件客户端。需要额外的权限来分析在您正访问网站上的这些链接。"
+      "message": "单击 发邮件 链接 （电子邮件链接） 将打开 Gmail 而不是您的邮件客户端。需要额外的权限来分析在您正访问网站上的这些链接。"
    },
    "makeButtonOpenGmail": {
       "message": "使按钮打开Gmail"
