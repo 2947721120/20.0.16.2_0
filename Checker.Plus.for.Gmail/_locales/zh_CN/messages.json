@@ -392,6 +392,9 @@
    "customizeNotifications": {
       "message": "自定义通知"
    },
+   "changeDomain": {
+      "message": "更改域"
+   },
    "dark": {
       "message": "黑暗"
    },
@@ -1045,6 +1048,9 @@
    },
    "none": {
       "message": "不显示"
+   },
+   "noticeaboutunreademailcount": {
+      "message": "未读邮件数的通知"
    },
    "notSignedIn": {
       "message": "未登录"
