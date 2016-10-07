@@ -6,7 +6,7 @@
       "message": "时间将以 24 小时制显示。如18:00"
    },
    "DND": {
-      "message": "DND"
+      "message": "勿扰"
    },
    "DNDisEnabled": {
       "message": "请勿打扰启用"
@@ -318,7 +318,7 @@
       "message": "家庭电话"
    },
    "contactsLoaded": {
-      "message": "联系人装!"
+      "message": "加载联系人!"
    },
    "contactsMessage": {
       "message": "鼠标悬停于照片可放大"
@@ -1098,7 +1098,7 @@
       "message": "在新标签页撰写邮件"
    },
    "openComposeInTabToolTip": {
-      "message": "打开一个新标签页（而不是在弹出窗口中）撰写新邮件，也适用于 mailto 链接。"
+      "message": "打开一个新标签页（而不是在弹出窗口中）撰写新邮件，也适用于 发邮件 链接。"
    },
    "openComposeReplyAction": {
       "message": "点击撰写或回复按钮时"
@@ -1305,7 +1305,7 @@
       "message": "好消息！老用户们!演员只是 $1 点击见/隐藏这。"
    },
    "reducedDonationAd_popup": {
-      "message": "好消息很长时间用户!\u003Cbr>你可以获取最新信息 $1 只有 50"
+      "message": "好消息很长时间用户!\u003Cbr>你可以获取最新信息 $1 只有 50美分"
    },
    "referToAlreadyDonated": {
       "message": "请参阅 $1"
@@ -1599,7 +1599,7 @@
       "message": "皮肤"
    },
    "social": {
-      "message": "社会"
+      "message": "社交"
    },
    "sound": {
       "message": "声音"
