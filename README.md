@@ -13,3 +13,4 @@ Checker Plus for Gmail
 ![image](https://cloud.githubusercontent.com/assets/13098589/19191918/f46ecb9e-8cd6-11e6-98d6-8605c275214b.png)
 
 ![image](https://cloud.githubusercontent.com/assets/13098589/19192806/108760f4-8cda-11e6-9a77-619185f3de9e.png)
+![image](https://cloud.githubusercontent.com/assets/13098589/19196887/d7c7d9aa-8ce9-11e6-9a9e-9f11802d1884.png)
